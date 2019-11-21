@@ -1,16 +1,17 @@
-# flutter_overall
+### Flutter 新手
 
-Flutter Overall
+[20191121]
 
-## Getting Started
+- 開發環境
 
-This project is a starting point for a Flutter application.
+		1. 下載 flutter sdk (官網有保留新舊版本)
+		2. 找到 flutter 執行檔(flutter/bin/flutter) 跑系統檢查(flutter doctor), 也可將flutter全局化(方便使用)
+		3. IDE 盡量使用 AS, 因為開發模式可以熱更新很方便, 但是插件要先插好
+		4. 熱更需要滿足某些條件, 目前還狀況不明, 很可能需要在MaterialApp 下才能進行
 
-A few resources to get you started if this is your first Flutter project:
+- 引入第三方插件
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+		1. 先到 google 查一下有沒有關鍵連結可以到 flutterawesome.com (主要找到用法與插件具體名稱)
+		2. 找到合適的插件包放到 pubspec.yaml 的 dependencies 下
+		3. 點選 AS 提供的 packages get 抓下插件包, 沒報錯就可用了
+		4. 留意 import 與 usage 在調整參數到想要的樣子, 基本上都會給出一個 Widget
